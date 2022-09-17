@@ -28,6 +28,7 @@ body{
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
+    background-color: #0d0068a3;
 }
 
 audio{
