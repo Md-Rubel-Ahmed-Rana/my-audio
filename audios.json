@@ -1,0 +1,34 @@
+{
+    "audios":[
+        {
+            "id": 1,
+            "audioFile": "./audios/audio-1.mp3",
+            "fileName": "Aj-keno-prithibi",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 2,
+            "audioFile": "./audios/audio-2.mp3",
+            "fileName": "Juratka nam",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 3,
+            "audioFile": "./audios/audio-3.mp3",
+            "fileName": "Makki Madani",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 4,
+            "audioFile": "./audios/audio-4.mp3",
+            "fileName": "Nur Nabi asheche",
+            "developer": "Md Rubel Ahmed Rana"
+        },
+        {
+            "id": 5,
+            "audioFile": "./audios/audio-5.mp3",
+            "fileName": "Sunar Madina",
+            "developer": "Md Rubel Ahmed Rana"
+        }
+    ]
+}
