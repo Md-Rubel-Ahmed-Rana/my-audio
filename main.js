@@ -10,6 +10,7 @@ const showAudios = (audios) => {
     let fileNumber = 0;
     const nextBtn = document.getElementById("next");
     const prevBtn = document.getElementById("prev");
+    const pauseBtn = document.getElementById("pause");
     const audioPath = document.getElementById("audio-file");
     audioPath.src = audios[fileNumber].audioFile;
     const audioName = document.getElementById("audio-name");
@@ -41,7 +42,19 @@ const showAudios = (audios) => {
         audioPath.src = audios[fileNumber].audioFile;
         audioName.innerText = audios[fileNumber].fileName;
         developer.innerText = audios[fileNumber].developer;
-        
+    })
+    pauseBtn.addEventListener("click", () => {
+        const playPausebtn = document.getElementById("play-pause-btn")
+        const audioPaused = audioPath.paused
+        if (audioPaused && playPausebtn.classList.contains("fa-caret-right")) {
+            audioPath.play();
+            playPausebtn.classList.add("fa-pause")
+            playPausebtn.classList.remove("fa-caret-right")
+        }else{
+            audioPath.pause();
+            playPausebtn.classList.remove("fa-pause")
+            playPausebtn.classList.add("fa-caret-right")
+        }
     })
 };
 

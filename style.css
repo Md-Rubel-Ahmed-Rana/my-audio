@@ -36,17 +36,19 @@ audio{
 }
 .buttons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: 5px;
 }
 button{
-    background-color: blue;
-    padding: 5px;
+    background-color: #00ff8980;
+    padding: 15px;
     font-size: 20px;
     color: white;
     font-family: arial black;
-    border-radius: 5px;
+    border-radius: 20%;
     cursor: pointer;
     border: none;
+    margin: 5px;
 }
 
 @media screen and (max-width: 678px){

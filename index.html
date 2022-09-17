@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>My Audio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a79b1fce5e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -14,10 +15,17 @@
             <div class="container">
                 <div id="audio-box">
                     <h2>My Music</h2>
-                    <audio id="audio-file" controls autoplay src=""></audio>
+                    <audio id="audio-file" controls autoplay src="" type="audio/mpeg/mp3"></audio>
                     <div class="buttons">
-                        <button id="prev">Prev</button>
-                        <button id="next">Next</button>
+                        <button id="prev">
+                            <i class="fa-solid fa-backward-step"></i>
+                        </button>
+                        <button id="pause">
+                            <i id="play-pause-btn" class="fa-solid fa-pause"></i>
+                        </button>
+                        <button id="next">
+                            <i class="fa-solid fa-forward-step"></i>
+                        </button>
                     </div>
                     <p>Gojol Name: <span id="audio-name"></span></p>
                     <p >Developer: <span id="developer"></span></p>
