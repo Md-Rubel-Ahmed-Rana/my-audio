@@ -53,8 +53,10 @@ button{
     font-family: arial black;
     border-radius: 20%;
     cursor: pointer;
-    border: none;
+    border: 2px solid white;
     margin: 5px;
+    outline: none;
+
 }
 #img{
     height: 200px;
