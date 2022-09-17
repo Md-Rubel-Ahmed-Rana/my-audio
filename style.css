@@ -45,6 +45,8 @@ button{
     color: white;
     font-family: arial black;
     border-radius: 5px;
+    cursor: pointer;
+    border: none;
 }
 
 @media screen and (max-width: 678px){
