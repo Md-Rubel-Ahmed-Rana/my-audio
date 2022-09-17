@@ -65,18 +65,6 @@
             "audioFile": "./audios/audio-11.mp3",
             "fileName": "Kamli Walar deshe jabo",
             "developer": "Md Rubel Ahmed Rana"
-        },
-        {
-            "id": 12,
-            "audioFile": "./audios/audio-12.mp3",
-            "fileName": "Kamli Walar deshe jabo",
-            "developer": "Md Rubel Ahmed Rana"
-        },
-        {
-            "id": 11,
-            "audioFile": "./audios/audio-11.mp3",
-            "fileName": "Kamli Walar deshe jabo",
-            "developer": "Md Rubel Ahmed Rana"
         }
     ]
 }
