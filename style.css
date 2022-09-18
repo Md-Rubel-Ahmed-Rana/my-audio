@@ -125,6 +125,9 @@ li> a{
         top: 50%;
         left: 45%;
     }
+    .wrap-container{
+        margin-top:290px;
+    }
     .container {
         background-color: black;
         position: absolute;
@@ -133,5 +136,8 @@ li> a{
         color: white;
         margin: auto;
         padding: 10px;
+    }
+    .music-menu{
+        display: none;
     }
 }
