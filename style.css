@@ -12,7 +12,7 @@ body{
     flex-direction: row-reverse;
     gap: 60px;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .container{
     position: absolute;
@@ -21,6 +21,15 @@ body{
     color: white;
     margin: auto;
     padding: 10px;
+}
+.music-menu {
+    background-color: purple;
+    margin-left: 600px;
+    height: 82vh;
+    width: 300px;
+    border: 6px solid blue;
+    color: white;
+    border-radius: 10px;
 }
 
 #audio-box > h2{
@@ -50,7 +59,9 @@ audio{
     width: 100%;
 }
 .buttons{
+    display: flex;
     margin-top: 5px;
+    align-items: center;
 }
 .buttons > h4{
     text-align: left;
@@ -81,15 +92,7 @@ button{
 }
 
 
-.music-menu{
-    background-color: purple;
-    margin-left: 600px;
-    height: 490px;
-    width: 300px;
-    border: 6px solid blue;
-    color: white;
-    border-radius: 10px;
-}
+
 .music-menu > h3 {
     text-align: center;
     border-bottom: 6px solid blue;
@@ -139,5 +142,16 @@ li> a{
     }
     .music-menu{
         display: none;
+    }
+    .buttons{
+        margin: 0px;
+        padding: 0%;
+        flex-direction: column;
+    }
+    .buttons > h4{
+        margin: 5px 0px;
+    }
+    button{
+        margin: 0px 0%;
     }
 }
