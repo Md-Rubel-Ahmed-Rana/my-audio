@@ -89,9 +89,19 @@ button{
 }
 .music-menu > ul {
    list-style: none;
+   margin: auto;
+   padding-right: 10px;
+   margin-right: 20px;
 }
-
-
+li{
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+}
+.active{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
 @media screen and (max-width: 678px){
     #audio-box {
         width: 80%;
