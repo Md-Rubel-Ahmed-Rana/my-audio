@@ -50,9 +50,16 @@ audio{
     width: 100%;
 }
 .buttons{
-    display: flex;
-    justify-content: center;
     margin-top: 5px;
+}
+.buttons > h4{
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 0px;
+    display: inline;
+    background-color: #00ff8980;
+    padding: 10px;
+    border-radius: 5px;
 }
 button{
     background-color: #00ff8980;
@@ -62,7 +69,7 @@ button{
     font-family: arial black;
     border-radius: 20%;
     cursor: pointer;
-    border: 2px solid white;
+    border:none;
     margin: 5px;
     outline: none;
 
@@ -96,6 +103,11 @@ button{
 li{
     border-bottom: 2px solid white;
     margin-bottom: 5px;
+    color: white;
+}
+li> a{
+    color: white;
+    text-decoration: none;
 }
 .active{
     background-color: blue;
