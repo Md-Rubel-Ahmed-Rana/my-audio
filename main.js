@@ -7,23 +7,6 @@ const loadAudios = () => {
         .then(data => { showAudios(data.audios), displayAudios(data.audios) })
 }
 
-// display all the audios to the UI as list item
-const displayAudios = (audios) => {
-    const totalMusic = document.getElementById("total-music");
-    totalMusic.innerText = audios.length;
-    const total = document.getElementById("total");
-    total.innerText = audios.length;
-    const musicContainer = document.getElementById("music-list");
-    audios.forEach(audio => {
-        const li = document.createElement("li");
-        li.innerHTML = `
-        <a href="#"><span>${audio.id}. </span> <span> ${audio.fileName.slice(0, 25)}</span></a>
-        `;
-        musicContainer.appendChild(li);
-
-    });
-}
-
 const showAudios = (audios) => {
     let fileNumber = 0;
     const playing = document.getElementById("playing");
@@ -79,5 +62,23 @@ const showAudios = (audios) => {
         }
     })
 };
+
+
+// display all the audios to the UI as list item
+const displayAudios = (audios) => {
+    const totalMusic = document.getElementById("total-music");
+    totalMusic.innerText = audios.length;
+    const total = document.getElementById("total");
+    total.innerText = audios.length;
+    const musicContainer = document.getElementById("music-list");
+    audios.forEach(audio => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+        <a href="#"><span>${audio.id}. </span> <span> ${audio.fileName.slice(0, 25)}</span></a>
+        `;
+        musicContainer.appendChild(li);
+
+    });
+}
 
 loadAudios()
